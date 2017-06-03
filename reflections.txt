@@ -1,0 +1,32 @@
+L1
+
+15.
+
+With Google Docs, you always have somewhat recent backup. But backup isn't logical versioning. 
+
+Manually saving allows versioning when it makes sense.
+
+18.Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because in programs, files are related to each and changes in one file causes a changes in others or how they appear. 
+
+Google Docs is an productivity suite that is not designed for projects. 
+
+22. How can you use the commands git log and git diff to view the history of files?
+
+git log to show the commit log
+q to quit
+
+git diff first second
+to show the difference between two files. 
+
+26. How might using version control make you more confident to make changes that could break something?
+
+if it doesn't work out, you can go back to a previously working version.
+
+31. Now that you have your workspace set up, what do you want to try using Git for?
+
+Senior project.
+
+
+
