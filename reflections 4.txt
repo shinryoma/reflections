@@ -1,1 +1,6 @@
 Lesson 4
+
+7. When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repositories can be accessed from different machine, allow for collaboration and provide a backup copy on the internet. 
+
