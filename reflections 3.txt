@@ -1,0 +1,39 @@
+Lesson 3
+
+5. What happens when you initialize a repository? Why do you need to do it?
+
+The required files are created that allow git to treat the folder as a repository. Including all .files that track the changes and contain the metadata. 
+
+It is needed because a folder is a regular folder until it becomes a repository.
+
+8. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the staging area has the files that are prepared to be commited. You can choose which files to commit together. 
+
+13. How can you use the staging area to make sure you have one commit per logical change?
+
+Add the files to the staging area related to one logical change every time then commit them. 
+
+16. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are useful for creating different modes like easy, or a different language version, or for experimenting, while keeping the original branch intact. 
+
+21. How do the diagrams help you visualize the branch structure?
+
+Diagrams show a visual representation in tree form of the different and current branches. It easier to understand than logs.
+
+Merge conflict (Newline characters between Windows and Unix systems)
+
+Context: Whenever we hit the "Enter" key on the keyboard, we are actually telling the computer to insert an invisible character into our text file to indicate to the computer that there should be a new line. Unix systems adds one character called the "line feed" character or LF or \n while Windows systems adds two characters, "carriage return" and "line feed" or CRLF or \r\n.
+
+Caroline's files have LF because her files were edited on Mac OSX, which uses LF. If a Windows user were to edit Caroline's files, the Windows text editor might convert all LF to CRLF to make editing files possible. When the Windows user merges her file with Caroline's files, a merge conflict will result due to the different LF and CRLF characters.
+
+To fix this, Windows users should set the global autocrlf attribute to true: git config --global core.autocrlf true. More information can be found here: https://help.github.com/articles/dealing-with-line-endings/#platform-all
+
+26. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+One main branch. Because the branches have merged into one.
+
+33. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic makes things easier but human interaction is still required for manual merges. 
