@@ -4,3 +4,24 @@ Lesson 4
 
 Remote repositories can be accessed from different machine, allow for collaboration and provide a backup copy on the internet. 
 
+10. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You might be working on something and don't want to sync someone else changes yet. 
+
+14. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks work on the github site. They allow you to make a clone of your own to work with while referencing the original. 
+Clones just clone reposotories. 
+Branches are new paths in your directory that allow to test or develop different features without changing the main.
+
+22. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The ability to work offline when need be. 
+
+25. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Using cloud sharing solutions or SharePoint. While better than plain Google Docs and it has version control, it was not designed for coding purposes. It would be easier to use because no CLI commands need to be learned. It would be harder to use because of coding based version control.
+
+31. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+For collaboration purposes. This was merges are done after everyone agrees to the changes. As a workflow.
